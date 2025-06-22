@@ -1,4 +1,8 @@
 #include <stdio.h>
+#define TAM 10 //tamanho do tabuleiro 
+#define NAVIO 3 // tamanho do navio
+#define OCUPADO 3 // valor para marcar os navios para evitar sobreposição
+#define AGUA 0 // valor que representa a agua
 
 int main(){
     int mar [10][10] = {
